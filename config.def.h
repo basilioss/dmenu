@@ -14,11 +14,12 @@ static const char *fonts[] = {
     /* Backup font */
     "monospace:size=13"
 };
+
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#eff5f9", "#17212b" },
-	[SchemeSel] = { "#17212b", "#eff5f0" },
+	[SchemeNorm] = { "#eff5f9", "#1a1b26" },
+	[SchemeSel] = { "#1a1b26", "#eff5f9" },
 	[SchemeOut] = { "#eff5f9", "#5c7aea" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
